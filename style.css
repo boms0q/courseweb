@@ -6,6 +6,12 @@
     color: Blue;
 }
 
+.YoutubeLink{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
 .YoutubeLink:hover{
     transition: all 0.5s;
     background-color: darkgray;
