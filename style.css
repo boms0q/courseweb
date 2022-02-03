@@ -13,10 +13,8 @@
 .YoutubeLink{
     text-decoration: none;
     border-radius: 10px;
-    color: black;
+    color: white;
     font-size: 100px;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 .YoutubeLink:hover{
