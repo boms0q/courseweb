@@ -9,7 +9,7 @@
 .YoutubeLink{
     text-decoration: none;
     color: black;
-    font-size: large;
+    font-size: 100px;
 }
 
 .YoutubeLink:hover{
