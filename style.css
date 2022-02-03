@@ -8,6 +8,7 @@
 
 .YoutubeLink{
     text-decoration: none;
+    box-sizing: 10px;
     color: black;
     font-size: 100px;
 }
