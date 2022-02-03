@@ -15,9 +15,7 @@
     border-radius: 10px;
     color: black;
     font-size: 100px;
-    padding-left: 100px;
-    position: absolute;
-    align-items: center;
+    text-align: center;
 }
 
 .YoutubeLink:hover{
