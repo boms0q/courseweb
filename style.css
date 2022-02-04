@@ -45,6 +45,7 @@
 }
 
 .HomePlayButton {
+    position: relative;
     border-style: none;
     border-radius: 10px;
     transform: translateY(120px);
