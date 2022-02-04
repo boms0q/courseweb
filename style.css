@@ -48,7 +48,7 @@
     position: relative;
     border-style: none;
     border-radius: 10px;
+    font-size: 50px;
     transform: translateY(120px);
     left: 50%;
-    font-size: 50px;
 }
