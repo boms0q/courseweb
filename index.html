@@ -13,9 +13,9 @@
         <div class="logo">BREH GAME</div>
         <div class="nav-links">
             <ul>
-                <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link">Play</a></li>
-                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="index.html" class="nav-link 1">Home</a></li>
+                <li><a href="index.html" class="nav-link 2">Play</a></li>
+                <li><a href="index.html" class="nav-link 3">About</a></li>
             </ul>
         </div>
     </nav>
@@ -34,8 +34,14 @@
 </body>
 <script>
     const PlayButton1 = document.querySelector(".HomePlayButton");
+    const PlayButton2 = document.querySelector(".nav-link 2");
 
     PlayButton1.addEventListener("click", () => {
+        document.body.scrollTop = 1000;
+        document.documentElement.scrollTop = 1000;
+    });
+
+    PlayButton2.addEventListener("click", () => {
         document.body.scrollTop = 1000;
         document.documentElement.scrollTop = 1000;
     });
