@@ -7,7 +7,7 @@
 
 .navbar {
     background-color: #333;
-    min-height: 8vh;
+    min-height: 18vh;
     display: flex;
     list-style: none;
     justify-content: space-between;
