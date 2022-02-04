@@ -48,4 +48,5 @@
     border-style: none;
     border-radius: 10px;
     transform: translateY(120px);
+    transform: translateX(120px);
 }
