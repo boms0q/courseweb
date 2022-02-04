@@ -46,12 +46,28 @@
     </section>
 </body>
 <script>
+    const mediaQuery1 = window.matchMedia('(min-width: 1920px)')
     const PlayButton1 = document.querySelector(".HomePlayButton");
+    let Chromebook = true;
 
-    PlayButton1.addEventListener("click", () => {
+    if (mediaQuery1.matches) {
+        PlayButton1.addEventListener("click", () => {
         document.body.scrollTop = 1000;
         document.documentElement.scrollTop = 1000;
-    });
+        });
+    }
+    else
+    {
+        Chromebook = false
+    }
+
+    if (Chromebook == true)
+    {
+        PlayButton1.addEventListener("click", () => {
+        document.body.scrollTop = 700;
+        document.documentElement.scrollTop = 700;
+        });
+    }
 </script>
 <script>
     const PlayButton2 = document.getElementById("PlayButton2");
