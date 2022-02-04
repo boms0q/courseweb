@@ -102,4 +102,7 @@
     color: black;
     font-size: 30px;
     border-radius: 5px;
+    background-color: #333;
+    text-align: center;
+    transform: translateY(150px);
 }
