@@ -11,3 +11,7 @@
     display: flex;
     list-style: none;
 }
+
+.navbar ul li a {
+    list-style: none;
+}
