@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.logo {
+    color: white;
+}
+
 .navbar ul {
 
 }
@@ -23,4 +27,5 @@
 
 .navbar ul li a {
     text-decoration: none;
+    color: white;
 }
