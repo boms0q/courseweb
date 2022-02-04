@@ -1,5 +1,4 @@
 * {
-    background-color: white;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -24,5 +23,4 @@
 
 .navbar ul li a {
     text-decoration: none;
-    background-color: transparent;
 }
