@@ -55,7 +55,7 @@
 .HomePlayButton {
     position: relative;
     border-style: none;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 38px;
     left: 50%;
     transform: translateY(120px);
