@@ -59,6 +59,10 @@
     border-style: none;
     border-radius: 5px;
     font-size: 38px;
-    left: 35%;
+    left: 45%;
     transform: translateY(120px);
+}
+
+.HomePlayButton:hover {
+    padding: 10px 40px;
 }
