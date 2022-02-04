@@ -19,13 +19,13 @@
 }
 
 .navbar ul {
-
+    display: flex;
+    width: 30%;
 }
 
 .navbar ul li {
     list-style: none;
     padding-right: 30px;
-    display: flex;
 }
 
 .navbar ul li a {
