@@ -64,5 +64,6 @@
 }
 
 .HomePlayButton:hover {
+    transition: all 0.5s;
     padding: 10px 40px;
 }
