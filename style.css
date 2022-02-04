@@ -53,7 +53,7 @@
 }
 
 .HomePlayButton {
-    position: relative;
+    text-align: center;
     border-style: none;
     border-radius: 5px;
     font-size: 38px;
