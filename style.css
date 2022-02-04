@@ -47,4 +47,5 @@
 .HomePlayButton {
     border-style: none;
     border-radius: 10px;
+    transform: translateY(500px);
 }
