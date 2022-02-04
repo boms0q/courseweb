@@ -113,3 +113,7 @@
     background-color: darkgray;
     padding: 10px 40px;
 }
+
+.GameUpdateInfo {
+    transform: translateY(370px);
+}
