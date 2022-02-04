@@ -28,11 +28,11 @@
     </section>
 </body>
 <script>
-    const PlayButton1 = document.getElementsByClassName("HomePlayButton");
+    const PlayButton1 = document.querySelector(".HomePlayButton");
 
-    PlayButton1.addEventListener("click", function () {
-        document.body.scrollTop = 50;
-        document.documentElement.scrollTop = 50;
+    PlayButton1.addEventListener("click", () => {
+        document.body.scrollTop = 20;
+        document.documentElement.scrollTop = 20;
     });
 </script>
 </html>
