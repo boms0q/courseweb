@@ -106,8 +106,8 @@
     border-radius: 5px;
     background-color: #333;
     padding: 8px 30px;
-    left: 50%;
-    transform: translateY(150px);
+    left: 40%;
+    transform: translateY(180px);
 }
 
 .GameButton:hover {
