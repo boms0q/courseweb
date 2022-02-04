@@ -50,6 +50,7 @@
 .nav-link {
     transition: all .3s ease-out;
     padding: 8px 30px;
+    cursor: pointer;
 }
 
 .HomeBigText {
