@@ -121,3 +121,7 @@
     text-align: center;
     transform: translateY(170px);
 }
+
+.AboutSection {
+    height: 100vh;
+}
