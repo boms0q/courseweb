@@ -13,7 +13,7 @@
         <div class="logo">BREH GAME</div>
         <div class="nav-links">
             <ul>
-                <li><a href="index.html" class="nav-link 1">Home</a></li>
+                <li><a id="HomeButton1" class="nav-link 1">Home</a></li>
                 <li><a id="PlayButton2" class="nav-link 2">Play</a></li>
                 <li><a id="AboutButton1" class="nav-link 3">About</a></li>
             </ul>
@@ -67,6 +67,14 @@
     AboutButton1.addEventListener("click", () => {
         document.body.scrollTop = 1000;
         document.documentElement.scrollTop = 1000;
+    });
+</script>
+<script>
+    const HomeButton1 = document.getElementById("HomeButton1");
+
+    HomeButton1.addEventListener("click", () => {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
     });
 </script>
 </html>
