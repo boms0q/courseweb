@@ -19,6 +19,7 @@
     padding-left: 60px;
     font-size: 30px;
     letter-spacing: 5px;
+    font-weight: bold;
 }
 
 .navbar ul {
@@ -32,6 +33,7 @@
 }
 
 .navbar ul li a {
+    font-weight: bold;
     text-decoration: none;
     color: white;
     font-size: 20px;
