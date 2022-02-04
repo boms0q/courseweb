@@ -98,7 +98,6 @@
 }
 
 .GameButton {
-    position: relative;
     transition: all .3s ease-out;
     text-decoration: none;
     color: white;
