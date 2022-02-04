@@ -40,6 +40,11 @@
     letter-spacing: 3px;
 }
 
+.navbar ul li a:hover {
+    transition: all 0.5s;
+    background-color: darkgray;
+}
+
 .HomeBigText {
     text-align: center;
     transform: translateY(100px);
