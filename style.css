@@ -38,9 +38,10 @@
     color: white;
     font-size: 20px;
     letter-spacing: 3px;
+    border-radius: 10px;
 }
 
-.navbar ul li:hover {
+.navbar ul li a:hover {
     transition: all 0.5s;
     background-color: darkgray;
 }
