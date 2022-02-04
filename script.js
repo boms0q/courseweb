@@ -1,4 +1,4 @@
-const PlayButton = document.getElementsByClassName("HomePlayButton")
+const PlayButton = document.getElementsByClassName("HomePlayButton");
 
 PlayButton.addEventListener("click", function () {
     window.scrollTo({
