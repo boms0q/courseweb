@@ -30,10 +30,10 @@
 .navbar ul li {
     list-style: none;
     padding-right: 30px;
+    padding: 8px 30px;
 }
 
 .navbar ul li a {
-    padding: 8px 30px;
     font-weight: bold;
     text-decoration: none;
     color: white;
