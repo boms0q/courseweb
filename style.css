@@ -12,6 +12,14 @@
     list-style: none;
 }
 
-.navbar ul li a {
+.navbar ul {
+
+}
+
+.navbar ul li {
     list-style: none;
+}
+
+.navbar ul li a {
+
 }
