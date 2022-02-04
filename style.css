@@ -83,3 +83,9 @@
 .PlaySection {
     height: 100vh;
 }
+
+.GameTitle {
+    text-align: center;
+    transform: translateY(100px);
+    font-size: 40px;
+}
