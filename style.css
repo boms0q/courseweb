@@ -98,12 +98,19 @@
 }
 
 .GameButton {
+    transition: all .3s ease-out;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 30px;
     border-radius: 5px;
     background-color: #333;
+    padding: 8px 30px;
     text-align: center;
     transform: translateY(150px);
-    padding: 8px 30px;
+}
+
+.GameButton:hover {
+    transition: all 0.5s;
+    background-color: darkgray;
+    padding: 10px 40px;
 }
