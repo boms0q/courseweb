@@ -15,7 +15,7 @@
 
 .logo {
     color: white;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 .navbar ul {
@@ -24,6 +24,7 @@
 
 .navbar ul li {
     list-style: none;
+    padding-right: 30px;
 }
 
 .navbar ul li a {
