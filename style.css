@@ -48,5 +48,5 @@
     border-style: none;
     border-radius: 10px;
     transform: translateY(120px);
-    transform: translateZ(120px);
+    left: 100px;
 }
