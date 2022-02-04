@@ -92,10 +92,23 @@
 <script>
     const AboutButton1 = document.getElementById("AboutButton1");
 
-    AboutButton1.addEventListener("click", () => {
+    if (mediaQuery1.matches) {
+        AboutButton1.addEventListener("click", () => {
         document.body.scrollTop = 2000;
         document.documentElement.scrollTop = 2000;
-    });
+        });
+    }
+    else{
+        Chromebook = true
+    }
+
+    if (Chromebook == true)
+    {
+        AboutButton1.addEventListener("click", () => {
+        document.body.scrollTop = 1700;
+        document.documentElement.scrollTop = 1700;
+        });
+    }
 </script>
 <script>
     const HomeButton1 = document.getElementById("HomeButton1");
