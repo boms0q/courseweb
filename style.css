@@ -33,6 +33,7 @@
 }
 
 .navbar ul li a {
+    padding: 8px 30px;
     font-weight: bold;
     text-decoration: none;
     color: white;
