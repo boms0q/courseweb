@@ -5,11 +5,8 @@
     box-sizing: border-box;
 }
 
-.navbar-div {
-    background-color: #333;
-}
-
 .navbar {
+    background-color: #333;
     min-height: 8vh;
     display: flex;
     list-style: none;
