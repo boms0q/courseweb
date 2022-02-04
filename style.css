@@ -30,7 +30,6 @@
 .navbar ul li {
     list-style: none;
     padding-right: 30px;
-    padding: 8px 30px;
 }
 
 .navbar ul li a {
@@ -45,6 +44,10 @@
 .navbar ul li a:hover {
     transition: all 0.5s;
     background-color: darkgray;
+}
+
+.nav-link {
+    padding: 8px 30px;
 }
 
 .HomeBigText {
