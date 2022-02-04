@@ -40,5 +40,5 @@
 
 .HomeBigText {
     text-align: center;
-    top: 50px;
+    transform: translateY(50px);
 }
