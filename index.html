@@ -48,7 +48,7 @@
 <script>
     const mediaQuery1 = window.matchMedia('(min-width: 1920px)')
     const PlayButton1 = document.querySelector(".HomePlayButton");
-    let Chromebook = true;
+    let Chromebook = false;
 
     if (mediaQuery1.matches) {
         PlayButton1.addEventListener("click", () => {
@@ -56,9 +56,8 @@
         document.documentElement.scrollTop = 1000;
         });
     }
-    else
-    {
-        Chromebook = false
+    else{
+        Chromebook = true
     }
 
     if (Chromebook == true)
