@@ -79,16 +79,23 @@
         PlayButton1.addEventListener("click", () => {
         document.body.scrollTop = 700;
         document.documentElement.scrollTop = 700;
-        })
+        });
 
         PlayButton2.addEventListener("click", () => {
         document.body.scrollTop = 700;
         document.documentElement.scrollTop = 700;
-        })
+        });
 
         AboutButton1.addEventListener("click", () => {
         document.body.scrollTop = 1700;
         document.documentElement.scrollTop = 1700;
+        });
+    }
+
+    if (Chromebook1Query.matches) {
+        PlayButton2.addEventListener("click", () => {
+        document.body.scrollTop = 700;
+        document.documentElement.scrollTop = 700;
         });
     }
 </script>
