@@ -49,21 +49,19 @@
     </section>
 </body>
 <script>
-    const mediaQuery1 = window.matchMedia('(min-width: 1920px)')
-    const PlayButton1 = document.querySelector(".HomePlayButton");
-    let Chromebook = false;
+    const PC1Query = window.matchMedia('(min-width: 1920px)')
+    const Chromebook1Query = window.matchMedia('(min-width: 1920px)')
 
-    if (mediaQuery1.matches) {
+    const PlayButton1 = document.querySelector(".HomePlayButton");
+
+    if (PC1Query.matches) {
         PlayButton1.addEventListener("click", () => {
         document.body.scrollTop = 1000;
         document.documentElement.scrollTop = 1000;
         });
     }
-    else{
-        Chromebook = true
-    }
 
-    if (Chromebook == true)
+    if (Chromebook1Query.matches)
     {
         PlayButton1.addEventListener("click", () => {
         document.body.scrollTop = 700;
