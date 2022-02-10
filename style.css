@@ -69,6 +69,14 @@
     background: linear-gradient(#26f30b, #0ae7e7);
 }
 
+.PlaySection {
+    background: linear-gradient(#0ae7e7, #26f30b);
+}
+
+.AboutSection {
+    background: linear-gradient(#26f30b, #0ae7e7);
+}
+
 .HomeBigText {
     text-align: center;
     transform: translateY(100px);
