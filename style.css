@@ -56,6 +56,10 @@
     cursor: pointer;
 }
 
+.Copyright {
+    color: #333;
+}
+
 .HomeBigText {
     text-align: center;
     transform: translateY(100px);
