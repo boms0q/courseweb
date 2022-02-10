@@ -47,7 +47,7 @@
 
 .navbar ul li a:hover {
     transition: all 0.5s;
-    background-color: darkgray;
+    background-color: rgb(243, 170, 12);
 }
 
 .nav-link {
