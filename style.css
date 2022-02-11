@@ -160,6 +160,7 @@
 .GameEmbed {
     height: 300px;
     width: 300px;
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     transform: translateY(120px);
