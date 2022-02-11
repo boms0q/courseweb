@@ -19,16 +19,12 @@
 }
 
 .logo2 {
-    color: white;
     left: 60px;
-    font-size: 30px;
-    letter-spacing: 5px;
-    font-weight: bold;
 }
 
 .logo {
     color: white;
-    left: 80px;
+    padding-left: 80px;
     font-size: 30px;
     letter-spacing: 5px;
     font-weight: bold;
