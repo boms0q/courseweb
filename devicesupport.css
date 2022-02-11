@@ -21,4 +21,8 @@
     .GameTitle {
         font-size: 50px;
     }
+
+    .GameUpdateInfo {
+        font-size: 30px;
+    }
 }   
