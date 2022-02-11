@@ -157,6 +157,11 @@
     text-shadow: 0 0 20px black;
 }
 
+.GameEmbed {
+    height: 100px;
+    width: 100px;
+}
+
 .AboutSection {
     height: 100vh;
 }
