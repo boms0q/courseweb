@@ -2,10 +2,13 @@
 @media (min-width: 1920px) {
     .HomePlayButton {
         left: 46.5%;
-        font-size: 30px;
     }
 
     .GameButton {
         left: 46.5%;
     }
-}
+    
+    .AboutInfo{
+        font-size: 30px;
+    }
+}   
