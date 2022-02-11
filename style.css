@@ -18,6 +18,14 @@
     align-items: center;
 }
 
+.logo2 {
+    color: white;
+    padding-left: 60px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
 .logo {
     color: white;
     padding-left: 60px;
