@@ -10,5 +10,6 @@
     
     .AboutInfo{
         font-size: 30px;
+        transform: translateY(320px);
     }
 }   
