@@ -20,7 +20,12 @@
 
 .logo2 {
     padding-left: 30px;
+    width: 0px;
+}
+
+.logo2 img {
     width: 10px;
+    height: 10px;
 }
 
 .logo {
