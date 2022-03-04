@@ -49,4 +49,12 @@
     .logo {
         padding-right: 400px;
     }
+
+    .AboutTitle {
+        transform: translateY(400px);
+    }
+
+    .AboutInfo {
+        transform: translateY(420px);
+    }
 }
