@@ -37,7 +37,7 @@
 }
 
 /*Chromebook2*/
-@media (min-width: 1366px) and (min-height: 768px) {
+@media (min-width: 1366px) {
     .GameEmbed {
         left: 36%;
     }
@@ -60,7 +60,7 @@
 }
 
 /*Chromebook3*/
-@media (min-width: 1300px) and (min-height: 731px) {
+@media (min-width: 1300px) {
     .GameEmbed {
         left: 35%;
     }
