@@ -34,4 +34,9 @@
     .GameImage {
         left: 44.5%;
     }
-}   
+}
+
+/*Chromebook2*/
+@media (min-width: 1366px) {
+
+}
