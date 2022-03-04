@@ -38,5 +38,7 @@
 
 /*Chromebook2*/
 @media (min-width: 1366px) {
-
+    .GameEmbed {
+        left: 35%;
+    }
 }
