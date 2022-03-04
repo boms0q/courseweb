@@ -61,6 +61,10 @@
 
 /*Chromebook3*/
 @media (min-width: 1300px) and (min-height: 731px) {
+    .GameEmbed {
+        left: 35%;
+    }
+    
     .AboutTitle {
         transform: translateY(450px);
     }
@@ -70,7 +74,7 @@
     }
 
     .GameButton {
-        left: 10%;
+        left: 10.5%;
     }
 
     .logo {
