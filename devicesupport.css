@@ -45,4 +45,8 @@
     .GameButton {
         left: 11%;
     }
+
+    .logo {
+        padding-right: 30px;
+    }
 }
