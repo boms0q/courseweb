@@ -62,10 +62,10 @@
 /*Chromebook3*/
 @media (min-width: 1300px) and (min-height: 731px) {
     .AboutTitle {
-        transform: translateY(500px);
+        transform: translateY(450px);
     }
 
     .AboutInfo {
-        transform: translateY(520px);
+        transform: translateY(470px);
     }
 }
