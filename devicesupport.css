@@ -37,7 +37,7 @@
 }
 
 /*Chromebook2*/
-@media (min-width: 1366px) {
+@media (min-width: 1366px) and (min-height: 768px) {
     .GameEmbed {
         left: 35%;
     }
