@@ -43,7 +43,7 @@
 
 .navbar ul li {
     list-style: none;
-    padding-right: 60px;
+    padding-right: 40px;
 }
 
 .navbar ul li::after {
