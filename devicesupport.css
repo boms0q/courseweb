@@ -66,11 +66,11 @@
     }
 
     .AboutTitle {
-        transform: translateY(450px);
+        transform: translateY(400px);
     }
 
     .AboutInfo {
-        transform: translateY(470px);
+        transform: translateY(420px);
     }
 
     .GameButton {
