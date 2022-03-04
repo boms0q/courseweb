@@ -39,15 +39,15 @@
 /*Chromebook2*/
 @media (min-width: 1366px) and (min-height: 768px) {
     .GameEmbed {
-        left: 35%;
+        left: 36%;
     }
 
     .GameButton {
-        left: 11%;
+        left: 12%;
     }
 
     .logo {
-        padding-right: 600px;
+        padding-right: 700px;
     }
 
     .AboutTitle {
