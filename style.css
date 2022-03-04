@@ -71,6 +71,7 @@
 
 .nav-link {
     transition: all .3s ease-out;
+    padding: 0px 30px;
     cursor: pointer;
 }
 
