@@ -46,19 +46,7 @@
     padding-right: 30px;
 }
 
-.navbar ul li::after {
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
 
-.navbar ul li:hover::after {
-    width: 100%;
-}
 
 .navbar ul li a {
     font-weight: bold;
@@ -69,7 +57,10 @@
     border-radius: 5px;
 }
 
-
+.navbar ul li a:hover {
+    transition: all 0.5s;
+    background-color: rgb(243, 170, 12);
+}
 
 .nav-link {
     transition: all .3s ease-out;
