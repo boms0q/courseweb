@@ -41,4 +41,8 @@
     .GameEmbed {
         left: 35%;
     }
+
+    .GameButton {
+        left: 10%;
+    }
 }
