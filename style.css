@@ -69,10 +69,7 @@
     border-radius: 5px;
 }
 
-.navbar ul li a:hover {
-    transition: all 0.5s;
-    background-color: rgb(243, 170, 12);
-}
+
 
 .nav-link {
     transition: all .3s ease-out;
