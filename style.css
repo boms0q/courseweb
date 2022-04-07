@@ -118,15 +118,13 @@
     transform: translateY(270px);
 }
 
+.HomePlayButton:hover {
+    border: 2px solid rgba(#fff, 0.6)
+}
+
 .HomeSection {
     height: 100vh;
 }
-
-.HomePlayButtons:hover{
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-  }
 
 .PlaySection {
     height: 100vh;
