@@ -147,16 +147,10 @@
     color: white;
     font-size: 30px;
     border-radius: 5px;
-    background-color: #333;
+    background-color: rgb(10, 105, 230);
     padding: 8px 30px;
     left: 7%;
     top: 190px;
-}
-
-.GameButton:hover {
-    transition: all 0.5s;
-    background-color: darkgray;
-    padding: 10px 40px;
 }
 
 .GameUpdateInfo {
