@@ -116,25 +116,11 @@
     font-size: 38px;
     left: 44%;
     transform: translateY(270px);
-}
-
-.HomePlayButton::after {
-    content: "";
-    width: 0%;
-    height: 2px;
-    background: #f44336;
-    display: block;
-    margin: auto;
-    transition: all 0.5s ease;
-    transform: scale(1);
-}
-
-.HomePlayButton:hover::after {
-    width: 100%;
+    transition: all 0.5s;
 }
 
 .HomePlayButton:hover {
-    transform: scale(1.5) perspective(1px)
+    transform: scale(1.5)
   }
 
 .HomeSection {
