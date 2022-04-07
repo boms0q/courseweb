@@ -125,7 +125,8 @@
     background: #f44336;
     display: block;
     margin: auto;
-    transition: 0.5s;
+    transition: all 0.5s ease;
+    transform: scale(1);
 }
 
 .HomePlayButton:hover::after {
@@ -133,7 +134,6 @@
 }
 
 .HomePlayButton:hover {
-    transition: all 0.5s;
     transform: scale(1.5) perspective(1px)
   }
 
