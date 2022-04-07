@@ -122,10 +122,11 @@
     height: 100vh;
 }
 
-.HomePlayButton:hover,
-.HomePlayButton:focus {
-  box-shadow: inset 6.5em 0 0 0 var(--hover);
-}
+.HomePlayButtons:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
 
 .PlaySection {
     height: 100vh;
