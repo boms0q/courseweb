@@ -132,6 +132,11 @@
     width: 100%;
 }
 
+.HomePlayButton:hover {
+    transition: all 0.5s;
+    transform: scale(1.5) perspective(1px)
+  }
+
 .HomeSection {
     height: 100vh;
 }
