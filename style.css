@@ -122,6 +122,13 @@
     height: 100vh;
 }
 
+.HomePlayButton:hover {
+    -webkit-transform: scale(1.025,1.025);
+    -ms-transform: scale(1.025,1.025);
+    -o-transform: scale(1.025,1.025);
+    transform: scale(1.025,1.025);
+}
+
 .PlaySection {
     height: 100vh;
 }
