@@ -104,6 +104,7 @@
 }
 
 .HomePlayButton {
+    background-color: rgb(10, 105, 230);
     cursor: pointer;
     transition: all .3s ease-out;
     padding: 8px 30px;
