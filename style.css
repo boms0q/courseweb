@@ -116,11 +116,12 @@
     font-size: 38px;
     left: 44%;
     transform: translateY(270px);
-    transition: all 0.5s;
+    transition: all 0.5s ease;
+    transform: scale(1);
 }
 
 .HomePlayButton:hover {
-    transform: scale(1.5)
+    transform: scale(1.5) perspective(1px)
   }
 
 .HomeSection {
