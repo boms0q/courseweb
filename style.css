@@ -116,6 +116,20 @@
     transform: translateY(270px);
 }
 
+.HomePlayButton::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.HomePlayButton:hover::after {
+    width: 100%;
+}
+
 .HomePlayButton:hover {
     transition: all 0.5s;
     padding: 10px 40px;
