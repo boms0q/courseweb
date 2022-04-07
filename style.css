@@ -117,7 +117,6 @@
     left: 44%;
     transform: translateY(270px);
     transition: all 0.5s ease;
-    transform: scale(1);
 }
 
 .HomePlayButton:hover {
