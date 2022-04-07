@@ -104,7 +104,7 @@
 }
 
 .HomePlayButton {
-    background-color: rgb(10, 105, 230);
+    --accent-color: rgb(10, 105, 230);
     color: white;
     cursor: pointer;
     transition: all .3s ease-out;
@@ -116,11 +116,15 @@
     font-size: 38px;
     left: 44%;
     transform: translateY(270px);
-    transition: all 0.5s ease;
 }
 
-.HomePlayButton:hover {
-    transform: scale(1.5) perspective(1px)
+.HomePlayButton::before {
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--accent-color);
   }
 
 .HomeSection {
