@@ -183,8 +183,9 @@
 .GameEmbed2 {
     display: block;
     height: 400px;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    position: absolute;
     top: 150px;
 }
 
