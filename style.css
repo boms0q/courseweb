@@ -161,10 +161,14 @@
 }
 
 .GameEmbed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 400px;
-    width: 400px;
+    width: 50%;
+    max-width: 400px;
     left: 50%;
-    transform: translateY(70px);
+    top: 70px;
 }
 
 .GameButton2 {
