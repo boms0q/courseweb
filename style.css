@@ -186,7 +186,7 @@
     width: 50%;
     position: absolute;
     right: 300px;
-    transform: translateY(170px);
+    top: 50px;
 }
 
 .AboutSection {
