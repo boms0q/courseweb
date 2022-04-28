@@ -184,9 +184,8 @@
     margin: auto;
     display: block;
     height: 400px;
-    width: 400px;
-    left: 50%;
-    right: 50%;
+    width: 50%;
+    padding: 10px;
     position: absolute;
     top: 150px;
 }
