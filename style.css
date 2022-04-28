@@ -183,8 +183,8 @@
 .GameEmbed2 {
     height: 400px;
     width: 400px;
-    position: static;
-    left: 34%;
+    position: absolute;
+    padding-right: 200px;
     transform: translateY(170px);
 }
 
