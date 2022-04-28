@@ -142,7 +142,7 @@
 
 .GameButton {
     transition: all .3s ease-out;
-    position: relative;
+    position: static;
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -163,14 +163,14 @@
 .GameEmbed {
     height: 400px;
     width: 400px;
-    position: relative;
+    position: static;
     left: 34%;
     transform: translateY(70px);
 }
 
 .GameButton2 {
     transition: all .3s ease-out;
-    position: relative;
+    position: static;
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -184,7 +184,7 @@
 .GameEmbed2 {
     height: 400px;
     width: 400px;
-    position: relative;
+    position: static;
     left: 34%;
     transform: translateY(170px);
 }
