@@ -185,6 +185,7 @@
     height: 400px;
     width: 400px;
     left: 50%;
+    right: 50%;
     position: absolute;
     top: 150px;
 }
