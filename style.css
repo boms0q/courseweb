@@ -181,11 +181,9 @@
 }
 
 .GameEmbed2 {
-    margin: auto;
     display: block;
     height: 400px;
     width: 50%;
-    padding: 10px;
     position: absolute;
     top: 150px;
 }
