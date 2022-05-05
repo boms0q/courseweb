@@ -196,16 +196,21 @@
 }
 
 .GameButton2 {
+    display: block;
     transition: all .3s ease-out;
-    position: static;
     text-decoration: none;
+    text-align: center;
     color: white;
     font-size: 30px;
     border-radius: 5px;
     background-color: rgb(10, 105, 230);
     padding: 8px 30px;
-    left: 7%;
-    top: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 50%;
+    width: 25%;
+    height: 5%;
+    transform: translateY(290px);
 }
 
 .GameEmbed2 {
