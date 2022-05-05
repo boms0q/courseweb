@@ -179,7 +179,7 @@
 
 .GameUpdateInfo2 {
     text-align: center;
-    transform: translateY(140px);
+    transform: translateY(130px);
     color: #fff;
     text-shadow: 0 0 20px black;
 }
@@ -210,7 +210,7 @@
     left: 50%;
     width: 25%;
     height: 5%;
-    transform: translateY(290px);
+    transform: translateY(250px);
 }
 
 .GameEmbed2 {
