@@ -166,8 +166,8 @@
     margin-right: auto;
     left: 50%;
     width: 25%;
-    height: 4%;
-    transform: translateY(50px);
+    height: 5%;
+    transform: translateY(100px);
 }
 
 .GameUpdateInfo {
