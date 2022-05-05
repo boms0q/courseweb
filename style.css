@@ -93,7 +93,6 @@
 
 .AboutSection {
     background: linear-gradient(#26f30b, #0ae7e7);
-    height: 15hv;
 }
 
 .HomeBigText {
@@ -123,6 +122,10 @@
 }
 
 .PlaySection {
+    height: 100vh;
+}
+
+.AboutSection {
     height: 100vh;
 }
 
