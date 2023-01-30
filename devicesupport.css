@@ -1,83 +1,70 @@
-/*Desktop/PC*/
-@media (min-width: 1920px) {
-    .HomePlayButton {
-        left: 46.5%;
-    }
-
-    .GameButton {
-        left: 46.5%;
-    }
-    
-    .AboutTitle {
-        font-size: 50px;
-        transform: translateY(300px);
-    }
-
-    .AboutInfo{
-        font-size: 30px;
-        transform: translateY(320px);
-    }
-
-    .GameTitle {
-        font-size: 50px;
-    }
-
-    .GameUpdateInfo {
-        font-size: 30px;
-    }
-    
-    .GameButton {
-        left: 44.5%;
-        font-size: 50px;
-    }
-
-    .GameImage {
-        left: 44.5%;
-    }
-}
-
-/*Chromebook2*/
-@media (min-width: 1366px) {
-    .GameEmbed {
-        left: 36%;
-    }
-
-    .GameButton {
-        left: 12%;
-    }
-
-    .logo {
-        padding-right: 700px;
-    }
-
-    .AboutTitle {
-        transform: translateY(400px);
-    }
-
-    .AboutInfo {
-        transform: translateY(420px);
-    }
-}
-
-/*Chromebook3*/
 @media (min-width: 1300px) {
+    .HomePlayButton {
+      left: 46.5%;
+    }
+    
     .GameEmbed {
-        left: 35%;
+      left: 35%;
     }
-
-    .AboutTitle {
-        transform: translateY(400px);
-    }
-
-    .AboutInfo {
-        transform: translateY(420px);
-    }
-
+    
     .GameButton {
-        left: 9.5%;
+      left: 9.5%;
+      font-size: 50px;
     }
-
+    
+    .AboutTitle {
+      font-size: 50px;
+      transform: translateY(400px);
+    }
+    
+    .AboutInfo {
+      font-size: 30px;
+      transform: translateY(420px);
+    }
+    
+    .GameTitle {
+      font-size: 50px;
+    }
+    
+    .GameUpdateInfo {
+      font-size: 30px;
+    }
+    
+    .GameImage {
+      left: 44.5%;
+    }
+    
     .logo {
-        padding-right: 550px;
+      padding-right: 550px;
     }
-}
+  }
+  
+  @media (min-width: 1366px) {
+    .GameEmbed {
+      left: 36%;
+    }
+    
+    .GameButton {
+      left: 12%;
+    }
+    
+    .logo {
+      padding-right: 700px;
+    }
+  }
+  
+  @media (min-width: 1920px) {
+    .HomePlayButton,
+    .GameButton {
+      left: 46.5%;
+    }
+    
+    .AboutTitle {
+      transform: translateY(300px);
+    }
+    
+    .AboutInfo {
+      transform: translateY(320px);
+    }
+  }
+  
