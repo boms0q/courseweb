@@ -1,0 +1,35 @@
+@media only screen and (max-width: 1366px) {
+    .navbar {
+    position: relative;
+    }
+    .logo {
+    padding-right: 30px;
+    font-size: 22px;
+    }
+    .navbar ul {
+    width: 60%;
+    }
+    .navbar ul li {
+    padding-right: 10px;
+    }
+    .navbar ul li a {
+    font-size: 18px;
+    }
+    .HomeBigText {
+    font-size: 30px;
+    }
+    .HomePlayButton {
+    font-size: 28px;
+    left: 30%;
+    }
+    .GameTitle {
+    font-size: 30px;
+    }
+    .GameTitle2 {
+    font-size: 30px;
+    }
+    .GameButton {
+    width: 35%;
+    font-size: 22px;
+    }
+    }
