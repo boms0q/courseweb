@@ -1,113 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Play our game Breh Game">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="breh, breh game, brehgame, scratch, game, brehgamewebsite, breh game scratch">
-    <meta name="author" content="Afbomann">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="devicesupport.css">
-    <title>Breh Game</title>
-    <link rel="shortcut icon" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<style>
+        body {
+            background-image: linear-gradient(to right, #696969, #1e90ff);
+            background-size: cover;
+            color: white;
+        }
+        .nav-tabs .nav-link {
+            color: white;
+        }
+		.tab {
+			margin-top: 20px;
+		}
+		.tab-content {
+			padding: 20px;
+		}
+        .copyright {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+            font-size: 14px;
+            text-align: left;
+            color: white;
+        }
+	</style>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo2"><img src="favicon.png" alt=""></div>
-        <div class="logo">BREH GAME</div>
-        <div class="nav-links">
-            <ul>
-                <li><a id="HomeButton1" class="nav-link 1">Home</a></li>
-                <li><a id="PlayButton2" class="nav-link 2">Play</a></li>
-                <li><a id="AboutButton1" class="nav-link 3">About</a></li>
-            </ul>
-        </div>
-    </nav>
-    <h5 class="Copyright">&copy; Breh Game 2022</h5>
-    <section class="HomeSection">
-        <h1 class="HomeBigText">Check out our game</h1>
-        <button class="HomePlayButton" href="#">PLAY</button>
-    </section>
-    <section class="PlaySection">
-        <h1 class="GameTitle">Breh Game</h1>
-        <p class="GameUpdateInfo">
-            Version 1.2.5 UPDATES:<br>
-            +Level select button (NOT FUNCTIONAL)<br>
-            Press "L" to see Levels when game has started.
-        </p>
-        <embed src="https://scratch.mit.edu/projects/631114882/embed" type="" class="GameEmbed">
-        <a class="GameButton" href="https://scratch.mit.edu/projects/631114882/">Play on Scratch</a>
-        
-        <h1 class="GameTitle2">Breh Clicker</h1>
-        <embed src="https://scratch.mit.edu/projects/682964034/embed" type="" class="GameEmbed2">
-        <a class="GameButton2" href="https://scratch.mit.edu/projects/682964034/">Play on Scratch</a>
-        <p class="GameUpdateInfo2">
-            Version: ALPHA
-        </p>
-    </section>
-    <section class="AboutSection">
-        <h1 class="AboutTitle">About the Team</h1>
-        <p class="AboutInfo">
-            Alexander: Programmer<br>
-            Thomas: Designer and Programmer<br>
-            Sebastian: Programmer<br>
-            Theo: Designer and Tester<br>
-            Ole Henrik: Designer and Music<br>
-            Leander: Tester<br><br>
-            Website made by Alexander
-        </p>
-    </section>
+    <div class="copyright">
+  &copy; Breh Game 2023
+</div>
+	<div class="container-fluid">
+		<!-- Tabs navigation -->
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">Breh Game</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Breh Game 2</a>
+			</li>
+            <li class="nav-item">
+				<a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Breh Clicker</a>
+		</ul>
+		
+		<!-- Tabs content -->
+		<div class="tab-content" id="myTabContent">
+			<div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+				<h3>Breh Game</h3>
+				<p>Version 1.2.5 UPDATES:<br> +Level select button (NOT FUNCTIONAL)<br> Press "L" to see Levels when game has started.</p>
+			</div>
+			<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+				<h3>Breh Game 2</h3>
+				<p>Current Version: W.I.P<br> UPDATES: none lol<br> *UNFINISHED*</p>
+			</div>
+            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+				<h3>Breh Clicker</h3>
+				<p>cool clicker game 10/10 fuction</p>
+			</div>
+		</div>
+	</div>
 </body>
-<script>
-    const PC1Query = window.matchMedia('(min-width: 1920px)')
-    const Chromebook1Query = window.matchMedia('(min-width: 1241px)')
-
-    const PlayButton1 = document.querySelector(".HomePlayButton");
-    const PlayButton2 = document.getElementById("PlayButton2");
-
-    const AboutButton1 = document.getElementById("AboutButton1");
-
-    if (PC1Query.matches) {
-        PlayButton1.addEventListener("click", () => {
-        document.body.scrollTop = 2500;
-        document.documentElement.scrollTop = 2500;
-        });
-
-        PlayButton2.addEventListener("click", () => {
-        document.body.scrollTop = 2500;
-        document.documentElement.scrollTop = 2500;
-        });
-
-        AboutButton1.addEventListener("click", () => {
-        document.body.scrollTop = 2000;
-        document.documentElement.scrollTop = 2000;
-        });
-    }
-
-    if (Chromebook1Query.matches)
-    {
-        PlayButton1.addEventListener("click", () => {
-        document.body.scrollTop = 700;
-        document.documentElement.scrollTop = 550;
-        });
-
-        PlayButton2.addEventListener("click", () => {
-        document.body.scrollTop = 700;
-        document.documentElement.scrollTop = 550;
-        });
-
-        AboutButton1.addEventListener("click", () => {
-        document.body.scrollTop = 1700;
-        document.documentElement.scrollTop = 1700;
-        });
-    }
-</script>
-<script>
-    const HomeButton1 = document.getElementById("HomeButton1");
-
-    HomeButton1.addEventListener("click", () => {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    });
-</script>
 </html>
