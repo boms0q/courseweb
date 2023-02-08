@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Breh Game</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -10,12 +11,27 @@
 	<style>
         body {
             background-image: linear-gradient(to right, #696969, #1e90ff);
+            background-image: url(BrehGame.png);
             background-size: cover;
             color: white;
+            text-shadow: 1px 1px 0px black;
         }
         .nav-tabs .nav-link {
             color: white;
+            text-shadow: 1px 1px 0px black;
+            transition: all 0.2s ease-in-out;
+            border-radius: 20px;
         }
+        .nav-tabs .nav-link:not(.active):hover {
+            transform: scale(1.15);
+        }
+        .nav-tabs .nav-link.active {
+            background-color: #00008B;
+            color: white;
+            opacity: 0.7;
+            border-radius: 20px;
+        }
+        
 		.tab {
 			margin-top: 20px;
 		}
@@ -40,7 +56,11 @@
             text-decoration: none;
             background-color: #1e90ff;
             color: white;
+            background-color: #00008B;
             border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #00008B;
         }
 	</style>
 </head>
@@ -84,9 +104,19 @@
 			</div>
             <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
 				<h3>News</h3>
-				<p>February 7th 2023<br>- Recoded the entire website so it works on all devices<br>- Breh Game 2 added</p>
+                <ul id="news-list">
+    </ul>
 			</div>
 		</div>
 	</div>
 </body>
+    <script>
+        let newsList = document.querySelector("#news-list");
+        let Update2 = document.createElement("li");
+        let Update1 = document.createElement("li");
+        Update2.innerHTML = "February 8th 2023<br>- Updated the website";
+        Update1.innerHTML = "February 7th 2023<br>- Recoded the entire website so it works on all devices<br>- Breh Game 2 added";
+        newsList.appendChild(Update2);
+        newsList.appendChild(Update1);
+    </script>
 </html>
