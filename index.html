@@ -91,17 +91,17 @@
 		<div class="tab-content" id="myTabContent">
 			<div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
 				<h3>Breh Game</h3>
-				<p>Version 1.2.5 UPDATES:<br> +Level select button (NOT FUNCTIONAL)<br> Press "L" to see Levels when game has started.</p>
+				<p id="BrehGameDescription"></p>
                 <button type="button" class="btn btn-primary" onclick="window.open('https://scratch.mit.edu/projects/631114882/', '_blank')">Play</button>
 			</div>
 			<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
 				<h3>Breh Game 2</h3>
-				<p>Current Version: W.I.P<br> UPDATES: none lol<br> *UNFINISHED*</p>
+				<p id="BrehGame2Description"></p>
                 <button type="button" class="btn btn-primary" onclick="window.open('https://scratch.mit.edu/projects/672690269/', '_blank')">Play</button>
 			</div>
             <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
 				<h3>Breh Clicker</h3>
-				<p>cool clicker game 10/10 fuction</p>
+				<p id="BrehClickerDescription"></p>
                 <button type="button" class="btn btn-primary" onclick="window.open('https://scratch.mit.edu/projects/682964034/', '_blank')">Play</button>
 			</div>
             <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
@@ -120,5 +120,52 @@
         Update1.innerHTML = "February 7th 2023<br>- Recoded the entire website so it works on all devices<br>- Breh Game 2 added";
         newsList.appendChild(Update2);
         newsList.appendChild(Update1);
+    </script>
+    <script>        
+        function displayBrehGameText() {
+            var projectId = "631114882";
+            var apiUrl = "https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/projects/" + projectId;
+            fetch(apiUrl)
+                .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                var instructions = data.instructions;
+                var instructionsWithLineBreaks = instructions.replace(/\n/g, "<br>");
+                document.getElementById("BrehGameDescription").innerHTML = instructionsWithLineBreaks;
+            });
+        }
+        
+        function displayBrehGame2Text() {
+            var projectId = "672690269";
+            var apiUrl = "https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/projects/" + projectId;
+            fetch(apiUrl)
+                .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                var instructions = data.instructions;
+                var instructionsWithLineBreaks = instructions.replace(/\n/g, "<br>");
+                document.getElementById("BrehGame2Description").innerHTML = instructionsWithLineBreaks;
+            });
+        }
+        
+        function displayBrehClickerText() {
+            var projectId = "682964034";
+            var apiUrl = "https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/projects/" + projectId;
+            fetch(apiUrl)
+                .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                var instructions = data.instructions;
+                var instructionsWithLineBreaks = instructions.replace(/\n/g, "<br>");
+                document.getElementById("BrehClickerDescription").innerHTML = instructionsWithLineBreaks;
+            });
+        }
+        
+        displayBrehGameText();
+        displayBrehGame2Text();
+        displayBrehClickerText();
     </script>
 </html>
