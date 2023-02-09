@@ -64,6 +64,10 @@
             background-color: #00008B;
             transform: scale(1.15);
         }
+        #Developers {
+            color: white;
+            background-color: #00008B;
+        }
 	</style>
 </head>
 <body>
@@ -84,6 +88,9 @@
             </li>
             <li class="nav-item">
 				<a class="nav-link" id="tab4-tab" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="false">News</a>
+            </li>
+            <li class="nav-item">
+				<a class="nav-link" id="tab5-tab" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Developers</a>
             </li>
 		</ul>
 		
@@ -106,8 +113,44 @@
 			</div>
             <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
 				<h3>News</h3>
-                <ul id="news-list">
-    </ul>
+                <ul id="news-list"></ul>
+			</div>
+            <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab5-tab">
+				<h3>Developers</h3>
+                <table class="table table-bordered">
+                    <thead id="Developers">
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                         </tr>
+                    </thead>
+                    <tbody id="Developers">
+                        <tr>
+                            <td>Thomas</td>
+                            <td>Programming/Design</td>
+                        </tr>
+                        <tr>
+                            <td>Sebastian</td>
+                            <td>Programming/Level Designer</td>
+                        </tr>
+                         <tr>
+                            <td>Alexander</td>
+                            <td>Programming/Web Developer</td>
+                        </tr>
+                        <tr>
+                            <td>Theo</td>
+                            <td>Level Designer</td>
+                        </tr>
+                        <tr>
+                            <td>Ole Henrik</td>
+                            <td>Level Designer</td>
+                        </tr>
+                        <tr>
+                            <td>Leander</td>
+                            <td>Tester</td>
+                        </tr>
+                 </tbody>
+                </table>
 			</div>
 		</div>
 	</div>
