@@ -157,10 +157,13 @@
 </body>
     <script>
         let newsList = document.querySelector("#news-list");
+        let Update3 = document.createElement("li");
         let Update2 = document.createElement("li");
         let Update1 = document.createElement("li");
+        Update3.innerHTML = "February 9th 2023<br>- Added a developers page";
         Update2.innerHTML = "February 8th 2023<br>- Updated the website";
         Update1.innerHTML = "February 7th 2023<br>- Recoded the entire website so it works on all devices<br>- Breh Game 2 added";
+        newsList.appendChild(Update3);
         newsList.appendChild(Update2);
         newsList.appendChild(Update1);
     </script>
