@@ -98,17 +98,28 @@
 		<div class="tab-content" id="myTabContent">
 			<div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
 				<h3>Breh Game</h3>
-				<p id="BrehGameDescription"></p>
+				<p id="BrehGameDescription">Version 1.2.6 UPDATES:<br>
+~Fixed an isssue where the player hitbox would not turn.<br>
+~Edited level 10 of jungle world to prevent an issue where the player gests stuck.<br>
++Added 2 new skins Blue/Yellow and Black/Purple.<br><br>
+
+Reach the next portal to continue<br>
+A and D/left arrow and right arrow = Left and Right<br>
+Space, w, or up arrow = Jump<br><br>
+
+Play here if it's laggy: https://turbowarp.org/631114882</p>
                 <button type="button" class="btn btn-primary" onclick="window.open('https://scratch.mit.edu/projects/631114882/', '_blank')">Play</button>
 			</div>
 			<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
 				<h3>Breh Game 2</h3>
-				<p id="BrehGame2Description"></p>
+				<p id="BrehGame2Description">Current Version: W.I.P<br>
+UPDATES: Edited version displayer to display correct<br> version; in this case 0.0.0<br>
+*UNFINISHED*</p>
                 <button type="button" class="btn btn-primary" onclick="window.open('https://scratch.mit.edu/projects/672690269/', '_blank')">Play</button>
 			</div>
             <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
 				<h3>Breh Clicker</h3>
-				<p id="BrehClickerDescription"></p>
+				<p id="BrehClickerDescription">cool clicker game 10/10 fuction</p>
                 <button type="button" class="btn btn-primary" onclick="window.open('https://scratch.mit.edu/projects/682964034/', '_blank')">Play</button>
 			</div>
             <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
@@ -181,37 +192,5 @@
                 document.getElementById("BrehGameDescription").innerHTML = instructionsWithLineBreaks;
             });
         }
-        
-        function displayBrehGame2Text() {
-            var projectId = "672690269";
-            var apiUrl = "https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/projects/" + projectId;
-            fetch(apiUrl)
-                .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                var instructions = data.instructions;
-                var instructionsWithLineBreaks = instructions.replace(/\n/g, "<br>");
-                document.getElementById("BrehGame2Description").innerHTML = instructionsWithLineBreaks;
-            });
-        }
-        
-        function displayBrehClickerText() {
-            var projectId = "682964034";
-            var apiUrl = "https://cors-anywhere.herokuapp.com/https://api.scratch.mit.edu/projects/" + projectId;
-            fetch(apiUrl)
-                .then(function (response) {
-                return response.json();
-            })
-            .then(function (data) {
-                var instructions = data.instructions;
-                var instructionsWithLineBreaks = instructions.replace(/\n/g, "<br>");
-                document.getElementById("BrehClickerDescription").innerHTML = instructionsWithLineBreaks;
-            });
-        }
-        
-        displayBrehGameText();
-        displayBrehGame2Text();
-        displayBrehClickerText();
     </script>
 </html>
